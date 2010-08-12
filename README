@@ -1,5 +1,6 @@
 Usage
 ==============
+
 1. Add 'template_shuffle' to your INSTALLED_APPS in settings.py
 2. Use the template library as shown below:
 
