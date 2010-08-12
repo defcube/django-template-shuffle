@@ -84,6 +84,8 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    'main',
+    'template_shuffle',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',

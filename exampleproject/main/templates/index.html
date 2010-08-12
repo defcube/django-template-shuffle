@@ -1,0 +1,11 @@
+{% load template_shuffle %}
+
+{% shuffle_blocks 2 %}
+Block 1
+{% shuffle_block_separator %}
+Block 2
+{% shuffle_block_separator %}
+Block 3
+{% shuffle_block_separator %}
+{# empty block should be removed #}
+{% end_shuffle_blocks %}
